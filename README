@@ -1,0 +1,76 @@
+Dynamic Leaderboard Dashboard
+Overview
+This project is a dynamic, real-time leaderboard dashboard built with React and Tailwind CSS, demonstrating advanced state management and UI interaction techniques.
+Features
+
+Real-time score updates
+Animated leaderboard rankings
+Performance insights
+Responsive design
+Tooltips and position change indicators
+
+Technology Stack
+
+React
+TypeScript
+Tailwind CSS
+Framer Motion
+Lucide React Icons
+React Tooltip
+
+Setup Instructions
+Prerequisites
+
+Node.js (v16+ recommended)
+npm or yarn
+
+Installation Steps
+
+1. Clone the repository
+```bash
+git clone https://github.com/ayoashy/ShawnExchange-TI
+cd ShawnExchange-TI
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Run the development server
+```bash
+npm run dev
+```
+
+
+## Design Choices and Architectural Decisions
+State Management
+
+Used React's useState and useEffect for local state management
+Implemented periodic score updates with setInterval
+Created a flexible updateScores function that randomizes participant scores
+
+## UI/UX Considerations
+
+Utilized Framer Motion for smooth animations
+Implemented position change indicators (up/down/stable)
+Color-coded rows based on participant ranking
+Added tooltips for additional context
+
+## Performance Optimization
+
+Memoized components where possible
+Used layout animations for smooth transitions
+Controlled re-renders with careful dependency management in useEffect
+
+## Scalability
+
+Used TypeScript interfaces for strong typing
+Modular component structure
+Easily extensible data model for participants
+
+## Customization
+
+Modify initialParticipants in Leaderboard.tsx to change initial data
+Adjust update interval in useEffect hook
+Customize color schemes and styling in Tailwind classes
