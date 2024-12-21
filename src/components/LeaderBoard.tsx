@@ -31,7 +31,7 @@ const initialParticipants: Participant[] = [
   { name: 'Eve', score: 100, prevScore: 100, position: 4, prevPosition: 4 },
   { name: 'Efe', score: 100, prevScore: 100, position: 5, prevPosition: 5 },
   { name: 'Mike', score: 100, prevScore: 100, position: 6, prevPosition: 6 },
-  { name: 'Ayo', score: 100, prevScore: 100, position: 7, prevPosition: 7 },
+  { name: 'Ashoka', score: 100, prevScore: 100, position: 7, prevPosition: 7 },
   { name: 'Ahmad', score: 100, prevScore: 100, position: 8, prevPosition: 8 },
   { name: 'Tolu', score: 100, prevScore: 100, position: 9, prevPosition: 9 },
 ];
